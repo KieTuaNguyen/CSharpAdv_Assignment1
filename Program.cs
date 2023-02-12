@@ -8,7 +8,7 @@
       List<Teacher> teachers = new List<Teacher>();
       List<Student> students = new List<Student>();
 
-      //Create object
+      //Create presentator object
       Presentator presentator = new Presentator();
 
       //Menu
