@@ -4,9 +4,11 @@
   {
     static void Main(string[] args)
     {
+      //Create list of teacher and student
+      List<Teacher> teachers = new List<Teacher>();
+      List<Student> students = new List<Student>();
+
       //Create object
-      Teacher teacher = new Teacher();
-      Student student = new Student();
       Presentator presentator = new Presentator();
 
       //Menu
@@ -20,58 +22,36 @@
         switch (choice)
         {
           case 1:
-            Console.WriteLine("Enter teacher's ID: ");
-            teacher.TeacherID = Console.ReadLine();
-            Console.WriteLine("Enter teacher's name: ");
-            teacher.Name = Console.ReadLine();
-            Console.WriteLine("Enter teacher's email: ");
-            teacher.Email = Console.ReadLine();
-            Console.WriteLine("Enter teacher's courses: ");
-            teacher.Courses = Console.ReadLine().Split(',').ToList();
-            Console.WriteLine("Enter teacher's date of birth: ");
-            teacher.DateOfBirth = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine("Enter teacher's phone: ");
-            teacher.Phone = Console.ReadLine();
-            Console.WriteLine("Enter teacher's address: ");
-            teacher.Address = Console.ReadLine();
-            Console.WriteLine(" -------------------------------------");
-            Console.WriteLine(" The information is added successfully");
-            Console.WriteLine(" -------------------------------------");
+            Teacher teacher = new Teacher();
+            teacher.InputInformation();
+            teachers.Add(teacher);
             presentator.DisplayMenu();
             break;
           case 2:
-            Console.WriteLine("Enter student's ID: ");
-            student.StudentID = Console.ReadLine();
-            Console.WriteLine("Enter student's name: ");
-            student.Name = Console.ReadLine();
-            Console.WriteLine("Enter student's email: ");
-            student.Email = Console.ReadLine();
-            Console.WriteLine("Enter student's courses: ");
-            student.Courses = Console.ReadLine().Split(',').ToList();
-            Console.WriteLine("Enter student's date of birth: ");
-            student.DateOfBirth = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine("Enter student's phone: ");
-            student.Phone = Console.ReadLine();
-            Console.WriteLine("Enter student's address: ");
-            student.Address = Console.ReadLine();
-            Console.WriteLine(" -------------------------------------");
-            Console.WriteLine(" The information is added successfully");
-            Console.WriteLine(" -------------------------------------");
+            Student student = new Student();
+            student.InputInformation();
+            students.Add(student);
             presentator.DisplayMenu();
             break;
           case 3:
-            teacher.DisplayInformation();
+            foreach (Teacher t in teachers)
+            {
+              t.DisplayInformation();
+            }
             presentator.DisplayMenu();
             break;
           case 4:
-            student.DisplayInformation();
+            foreach (Student s in students)
+            {
+              s.DisplayInformation();
+            }
             presentator.DisplayMenu();
             break;
           case 5:
-            Console.WriteLine("Exit");
+            Console.WriteLine("Exit the program");
             break;
           default:
-            Console.WriteLine("Please re-enter your choice (from 1-5):");
+            Console.WriteLine("Invalid choice");
             break;
         }
       }

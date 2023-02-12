@@ -52,5 +52,7 @@ namespace CSharp_Assignment1
 
     //Methods
     public abstract void DisplayInformation();
+
+    public abstract void InputInformation();
   }
 }

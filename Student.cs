@@ -46,5 +46,26 @@ namespace CSharp_Assignment1
     {
       this.courses.Add(course);
     }
+
+    public override void InputInformation()
+    {
+      Console.WriteLine("Enter student's ID: ");
+      StudentID = Console.ReadLine();
+      Console.WriteLine("Enter student's name: ");
+      Name = Console.ReadLine();
+      Console.WriteLine("Enter student's email: ");
+      Email = Console.ReadLine();
+      Console.WriteLine("Enter student's courses: ");
+      Courses = Console.ReadLine().Split(',').ToList();
+      Console.WriteLine("Enter student's date of birth: ");
+      DateOfBirth = DateTime.Parse(Console.ReadLine());
+      Console.WriteLine("Enter student's phone: ");
+      Phone = Console.ReadLine();
+      Console.WriteLine("Enter student's address: ");
+      Address = Console.ReadLine();
+      Console.WriteLine(" -------------------------------------");
+      Console.WriteLine(" The information is added successfully");
+      Console.WriteLine(" -------------------------------------");
+    }
   }
 }
