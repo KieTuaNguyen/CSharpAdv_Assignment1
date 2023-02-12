@@ -1,0 +1,18 @@
+1
+1993882
+Nguyen Van Loi
+LoiFPT@greenwich.com
+C#, OOP, Design Pattern
+12/12/1990
+0912334455
+01 Le Duan
+2
+210002
+Kiet fix bug
+kietgcd@greenwich.com
+Python, C#, R
+07/07/2003
+0912332211
+01 Le Lai
+4
+3
