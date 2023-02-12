@@ -1,6 +1,6 @@
 namespace CSharp_Assignment1
 {
-  class Presentator
+  class Presentator : IPresentator
   {
     //Method
     public void DisplayMenu()
@@ -13,6 +13,14 @@ namespace CSharp_Assignment1
       Console.WriteLine("5 | Exit the program                        |");
       Console.WriteLine("=============================================");
       Console.WriteLine("        Please choose your option:           ");
+    }
+
+    public void DeleteInformation()
+    {
+    }
+
+    public void UpdateInformaton()
+    {
     }
   }
 }
