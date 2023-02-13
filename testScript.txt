@@ -8,7 +8,7 @@ C#, OOP, Design Pattern
 01 Le Duan
 2
 210002
-Kiet fix bug
+Kiet gap bug
 kietgcd@greenwich.com
 Python, C#, R
 07/07/2003
@@ -26,7 +26,7 @@ App Dev
 01 Le Thanh Ton
 2
 210012
-Kiet fix xong
+Kiet fix xong bug
 kietgcd@greenwich.com
 Python, R
 08/08/1999
