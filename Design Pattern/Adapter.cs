@@ -43,16 +43,16 @@ namespace CSharp_Assignment1
     }
   }
 
-  class VietnameseCustomer
-  {
-    static void Main(string[] args)
-    {
-      //Create English Message
-      EnglishMessage englishMessage = new EnglishMessage();
-      //Create new Vietnamese and define target is English Message
-      IVietnameseTarget vietnamese = new TranslatorAdapter(englishMessage);
-      //Send message
-      vietnamese.Send("Xin chào");
-    }
-  }
+  // class VietnameseCustomer
+  // {
+  //   static void Main(string[] args)
+  //   {
+  //     //Create English Message
+  //     EnglishMessage englishMessage = new EnglishMessage();
+  //     //Create new Vietnamese and define target is English Message
+  //     IVietnameseTarget vietnamese = new TranslatorAdapter(englishMessage);
+  //     //Send message
+  //     vietnamese.Send("Xin chào");
+  //   }
+  // }
 }
