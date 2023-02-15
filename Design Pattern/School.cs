@@ -33,4 +33,26 @@ namespace CSharp_Assignment1
       return schoolInfo.ToString();
     }
   }
+
+  class Test
+  {
+    static void Main(string[] args)
+    {
+      //Create greenwich object
+      School greenwich = new SchoolBuilder(3)
+        .SetClassrooms()
+        .SetLibrary()
+        .SetTenisCourt()
+        .SetSwimmingPool()
+        .Build();
+      Console.WriteLine(greenwich.GetSchoolInfo());
+      Console.WriteLine("---");
+      //Create dut object
+      School dut = new SchoolBuilder(5)
+        .SetClassrooms()
+        .SetLibrary()
+        .Build();
+      Console.WriteLine(dut.GetSchoolInfo());
+    }
+  }
 }
