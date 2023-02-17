@@ -22,12 +22,14 @@
         switch (choice)
         {
           case 1:
+            //Create teacher object
             Teacher teacher = (Teacher)PersonFactory.CreatePerson("teacher");
             teacher.InputInformation();
             teachers.Add(teacher);
             presentator.DisplayMenu();
             break;
           case 2:
+            //Create student object
             Student student = (Student)PersonFactory.CreatePerson("student");
             student.InputInformation();
             students.Add(student);
