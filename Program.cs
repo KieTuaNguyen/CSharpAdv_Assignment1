@@ -22,13 +22,13 @@
         switch (choice)
         {
           case 1:
-            Teacher teacher = new Teacher();
+            Teacher teacher = (Teacher)PersonFactory.CreatePerson("teacher");
             teacher.InputInformation();
             teachers.Add(teacher);
             presentator.DisplayMenu();
             break;
           case 2:
-            Student student = new Student();
+            Student student = (Student)PersonFactory.CreatePerson("student");
             student.InputInformation();
             students.Add(student);
             presentator.DisplayMenu();
