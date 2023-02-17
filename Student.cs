@@ -1,36 +1,17 @@
 namespace CSharp_Assignment1
 {
-  class Student : Person
+  class Student : IPerson
   {
-    //Fields
-    private string studentID;
-    private List<string> courses;
-
-    //Properties
-    public string StudentID
-    {
-      get { return studentID; }
-      set { studentID = value; }
-    }
-    public List<string> Courses
-    {
-      get { return courses; }
-      set { courses = value; }
-    }
-
-    //Constructors
-    public Student()
-    {
-    }
-    public Student(string name, DateTime dateOfBirth, string email, string phone, string address, string studentID, List<string> courses)
-      : base(name, dateOfBirth, email, phone, address)
-    {
-      this.studentID = studentID;
-      this.courses = courses;
-    }
+    public string Name { get; set; }
+    public DateTime DateOfBirth { get; set; }
+    public string Email { get; set; }
+    public string Phone { get; set; }
+    public string Address { get; set; }
+    public string StudentID { get; set; }
+    public List<string> Courses { get; set; }
 
     //Overirde methods 
-    public override void DisplayInformation()
+    public void DisplayInformation()
     {
       Console.WriteLine("=========STUDENT INFORMATION=========");
       Console.WriteLine(" |Name: " + Name);
@@ -44,10 +25,10 @@ namespace CSharp_Assignment1
     //Method
     public void EnrollInCourse(string course)
     {
-      this.courses.Add(course);
+      Courses.Add(course);
     }
 
-    public override void InputInformation()
+    public void InputInformation()
     {
       Console.WriteLine("Enter student's ID: ");
       StudentID = Console.ReadLine();
@@ -66,6 +47,14 @@ namespace CSharp_Assignment1
       Console.WriteLine(" -------------------------------------");
       Console.WriteLine(" The information is added successfully");
       Console.WriteLine(" -------------------------------------");
+    }
+
+    public void DeleteInformation()
+    {
+    }
+
+    public void UpdateInformaton()
+    {
     }
   }
 }
