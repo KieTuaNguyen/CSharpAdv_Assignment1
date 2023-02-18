@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="CSharp_Assignment1.Student" BaseTypeListCollapsed="true">
-    <Position X="4.25" Y="3.75" Width="1.5" />
+    <Position X="4" Y="3.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>QAAAAABAACgAAAAAAAAAAAQAAAAQAAECAAAAIBACAAA=</HashCode>
       <FileName>Person\Student.cs</FileName>
@@ -16,7 +16,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="CSharp_Assignment1.Teacher" BaseTypeListCollapsed="true">
-    <Position X="6" Y="3.75" Width="1.5" />
+    <Position X="6.25" Y="3.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>QAAAAABAACgAAAAAAAAACAQAAAAQAAECAAAAIBAAAAA=</HashCode>
       <FileName>Person\Teacher.cs</FileName>
@@ -24,7 +24,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="CSharp_Assignment1.Presentator">
-    <Position X="8" Y="2.25" Width="1.5" />
+    <Position X="8.5" Y="2.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>Presentator.cs</FileName>
@@ -32,7 +32,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="CSharp_Assignment1.Program">
-    <Position X="8" Y="4.25" Width="1.5" />
+    <Position X="8.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
@@ -46,7 +46,7 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="CSharp_Assignment1.IPresentator">
-    <Position X="8" Y="0.5" Width="1.5" />
+    <Position X="8.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>IPresentator.cs</FileName>

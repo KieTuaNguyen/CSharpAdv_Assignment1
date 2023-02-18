@@ -1,6 +1,5 @@
 namespace CSharp_Assignment1
 {
-  //Applying Factory Design Pattern
   interface IPerson
   {
     string Name { get; set; }
