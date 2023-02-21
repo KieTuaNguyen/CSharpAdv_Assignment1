@@ -4,7 +4,6 @@
   {
     public static List<Student> students { get; internal set; }
     public static List<Course> courses { get; internal set; }
-
     static void Main(string[] args)
     {
       //Create list of students and courses

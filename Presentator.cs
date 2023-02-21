@@ -63,8 +63,6 @@ namespace CSharp_Assignment1
       Console.WriteLine("=============================================");
       Console.WriteLine("|         School Management System          |");
       Console.WriteLine("|==============by KietGDD210002=============|");
-
-
     }
   }
 }
