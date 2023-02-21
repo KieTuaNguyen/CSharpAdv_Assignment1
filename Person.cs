@@ -53,6 +53,8 @@ namespace CSharp_Assignment1
     //Methods
     public abstract void DisplayInformation();
 
-    public abstract void InputInformation();
+    public abstract void UpdateInformation(string studentID);
+
+    public abstract void DeleteInformation(string studentID);
   }
 }
