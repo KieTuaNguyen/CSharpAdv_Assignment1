@@ -1,0 +1,58 @@
+2
+01
+Kiet
+Kiet@Case2.com
+07/07/2003
+113
+193 Nguyen Luong Bang
+Python
+2
+02
+Chien
+Chien@Case2.com
+08/08/2003
+113
+193 Nguyen Luong Bang
+R
+2
+03
+Minh
+Minh@Case2.com
+09/09/2003
+113
+193 Nguyen Luong Bang
+SQL
+5
+6
+7
+01
+Kiet ne
+KietDangTest@Case7.com
+07/07/2003
+113
+193 Nguyen Luong Bang
+Java
+6
+8
+02
+6
+2
+02
+Chien
+Chien@gmail.com
+08/08/2003
+113
+193 Nguyen Luong Bang
+R
+6
+4
+02
+1
+C#
+1
+C++
+3
+Java
+3
+July
+9
