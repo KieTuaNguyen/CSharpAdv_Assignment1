@@ -9,8 +9,8 @@ namespace CSharp_Assignment1
     string Address { get; set; }
 
     void DisplayInformation();
-    void InputInformation();
-    void UpdateInformaton();
-    void DeleteInformation();
+    void InputInformation(List<Course> courses);
+    void UpdateInformation(string studentID);
+    void DeleteInformation(string studentID);
   }
 }
