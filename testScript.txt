@@ -1,58 +1,51 @@
-2
-01
-Kiet
-Kiet@Case2.com
-07/07/2003
-113
-193 Nguyen Luong Bang
-Python
-2
-02
-Chien
-Chien@Case2.com
-08/08/2003
-113
-193 Nguyen Luong Bang
-R
-2
-03
-Minh
-Minh@Case2.com
-09/09/2003
-113
-193 Nguyen Luong Bang
-SQL
-5
-6
-7
-01
-Kiet ne
-KietDangTest@Case7.com
-07/07/2003
-113
-193 Nguyen Luong Bang
-Java
-6
-8
-02
-6
-2
-02
-Chien
-Chien@gmail.com
-08/08/2003
-113
-193 Nguyen Luong Bang
-R
-6
-4
-02
 1
 C#
 1
-C++
-3
+Python
+5
+2
+GDD210002
+Nguyen Tuan Kiet
+kietntgdd210002@fpt.edu.vn
+07/07/2003
+0914852999
+03 Le Duan
+C#
+2
+GCD210237
+Dang Van Tri Minh
+minhdvtgcd210237@fpt.edu.vn
+02/12/2003
+0942887799
+03 Le Lai
+C#
+2
+GCD210012
+Huynh Cong Chien
+chienhcgcd210012@fpt.edu.vn
+12/12/2003
+0912229988
+03 Le Loi
 Java
 3
-July
-9
+Java
+4
+GDD210002
+5
+6
+4
+GDD210002
+7
+GDD210002
+Kiet dang check case 7
+testcase7@success.com
+01/01/2000
+0912334455
+193 Nguyen Luong Bang
+Java
+4
+GDD210002
+6
+8
+GDD210002
+6
