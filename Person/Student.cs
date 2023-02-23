@@ -51,8 +51,20 @@ namespace CSharp_Assignment1
       Name = Console.ReadLine();
       Console.WriteLine("Enter student's email: ");
       Email = Console.ReadLine();
-      Console.WriteLine("Enter student's date of birth: ");
-      DateOfBirth = DateTime.Parse(Console.ReadLine());
+      bool validDate = false;
+      while (!validDate)
+      {
+        Console.WriteLine("Enter student's date of birth: ");
+        try
+        {
+          DateOfBirth = DateTime.Parse(Console.ReadLine());
+          validDate = true;
+        }
+        catch (System.FormatException)
+        {
+          Console.WriteLine("Invalid date format. Please enter a valid date.");
+        }
+      }
       Console.WriteLine("Enter student's phone: ");
       Phone = Console.ReadLine();
       Console.WriteLine("Enter student's address: ");

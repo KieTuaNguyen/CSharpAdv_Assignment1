@@ -18,10 +18,18 @@
 
       presentator.DisplayMenu();
       Console.WriteLine("Enter your choice: ");
-      int choice;
+      int choice = 0;
       do
       {
-        choice = int.Parse(Console.ReadLine());
+        try
+        {
+          choice = int.Parse(Console.ReadLine());
+        }
+        catch (System.FormatException)
+        {
+          Console.WriteLine("Invalid input. Please enter a number.");
+          continue;
+        }
         switch (choice)
         {
           case 1:
