@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c519eab8-a713-4d5f-9ebb-9503a7d8d302" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/CSharp_Assignment1/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSharp_Assignment1/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSharp_Assignment1/FileContentIndex/3a6fe9c8-6dc3-42eb-a869-3cbdc90d1e98.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSharp_Assignment1/FileContentIndex/ae272177-ccd0-4402-a8c1-79af6f2c49d3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSharp_Assignment1/FileContentIndex/b32e21dd-0128-4ac8-90c7-596c68c71d29.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSharp_Assignment1/FileContentIndex/f93d525e-8733-47e6-99db-e04cc1e78ec2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSharp_Assignment1/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSharp_Assignment1/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSharp_Assignment1/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSharp_Assignment1/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharp_assignment1.metadata.v5.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharp_assignment1.metadata.v5.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharp_assignment1.projects.v5.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharp_assignment1.projects.v5.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/CSharp_Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/CSharp_Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CSharp_Assignment1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CSharp_Assignment1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CSharp_Assignment1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CSharp_Assignment1.assets.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1677246980" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="dp" />
+                    <option name="lastUsedInstant" value="1677246979" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MBfo1PrRtXWur52luQwEe3wfGU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/PC/Desktop/CSharp_Assignment1",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c519eab8-a713-4d5f-9ebb-9503a7d8d302" name="Changes" comment="" />
+      <created>1677246067742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677246067742</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
