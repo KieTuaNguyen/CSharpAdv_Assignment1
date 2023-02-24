@@ -37,7 +37,7 @@ namespace CSharp_Assignment1
         StudentID = Console.ReadLine();
 
         // Check if the student ID already exists
-        bool studentIDExists = Program.students.Any(s => s.StudentID == StudentID);
+        bool studentIDExists = StudentManager.students.Any(s => s.StudentID == StudentID);
         if (!studentIDExists)
         {
           uniqueID = true;
@@ -89,7 +89,7 @@ namespace CSharp_Assignment1
 
     public void UpdateInformation(string studentID)
     {
-      Student student = Program.students.FirstOrDefault(s => s.StudentID == studentID);
+      Student student = StudentManager.students.FirstOrDefault(s => s.StudentID == studentID);
       Presentator presentator = new Presentator();
       if (student != null)
       {
@@ -108,13 +108,13 @@ namespace CSharp_Assignment1
         //Clear the list of previous courses for this
         student.Courses.Clear();
         //Add new course to the list of courses for this student
-        Course course = Program.courses.FirstOrDefault(c => c.CourseName == courseName);
+        Course course = StudentManager.courses.FirstOrDefault(c => c.CourseName == courseName);
 
         if (course == null)
         {
           // If the course doesn't exist, create a new course object and add it to the list of courses
           course = new Course(courseName, new List<Course>());
-          Program.courses.Add(course);
+          StudentManager.courses.Add(course);
         }
 
         // Add the course to the list of courses for this student
@@ -130,10 +130,10 @@ namespace CSharp_Assignment1
     public void DeleteInformation(string studentID)
     {
       Presentator presentator = new Presentator();
-      Student student = Program.students.FirstOrDefault(s => s.StudentID == studentID);
+      Student student = StudentManager.students.FirstOrDefault(s => s.StudentID == studentID);
       if (student != null)
       {
-        Program.students.Remove(student);
+        StudentManager.students.Remove(student);
         student.Courses.Clear();
         presentator.DisplayDeleteSuccessfulMessage();
       }
