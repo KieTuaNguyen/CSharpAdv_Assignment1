@@ -1,62 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="CSharp_Assignment1.Course" BaseTypeListCollapsed="true">
-    <Position X="6.5" Y="4.5" Width="1.5" />
+  <Class Name="CSharp_Assignment1.StudentManager" Collapsed="true">
+    <Position X="11" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAABAAAAAAAAAAAAAAAAAAAAAAAEAEAAAABAAgAA=</HashCode>
-      <FileName>Course\Course.cs</FileName>
+      <HashCode>AEAIAAAAAAQAgEAAAAAAIQCAAABACgBIEAAIYAACwII=</HashCode>
+      <FileName>StudentManager.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CSharp_Assignment1.Presentator" BaseTypeListCollapsed="true">
-    <Position X="4.25" Y="4" Width="1.5" />
+  <Class Name="CSharp_Assignment1.Staff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgAIAAAQA4AAAA=</HashCode>
-      <FileName>Presentator\Presentator.cs</FileName>
+      <HashCode>QAAAAABAACAAAAAAAAAAAAQAAAAQAAECEAAAIgAAAAA=</HashCode>
+      <FileName>Person\Staff.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="CSharp_Assignment1.Student" BaseTypeListCollapsed="true">
-    <Position X="8.75" Y="6" Width="1.5" />
+  <Class Name="CSharp_Assignment1.Student" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAABAACAAAAAAAAAAAAQAAAAQAAECEAAAIBACAAA=</HashCode>
       <FileName>Person\Student.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="CSharp_Assignment1.CourseFactory">
-    <Position X="6.5" Y="1.5" Width="1.5" />
+  <Class Name="CSharp_Assignment1.Course" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAAAAAAAAAAAAAAAAAAAAAAEAEAAAABAAgAA=</HashCode>
+      <FileName>Course\Course.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CSharp_Assignment1.CourseFactory" Collapsed="true">
+    <Position X="11" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Factory\CourseFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CSharp_Assignment1.PersonFactory">
-    <Position X="8.75" Y="1.5" Width="1.5" />
+  <Class Name="CSharp_Assignment1.PersonFactory" Collapsed="true">
+    <Position X="12.75" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
       <FileName>Factory\PersonFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="CSharp_Assignment1.ICourse">
-    <Position X="6.5" Y="2.75" Width="1.5" />
+  <Class Name="CSharp_Assignment1.Presentator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAGAAAAAAAAAAAAAAAgAIAAAQA4AAAA=</HashCode>
+      <FileName>Presentator\Presentator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CSharp_Assignment1.Program" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CSharp_Assignment1.IPerson" Collapsed="true">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABAACAAAAAAAAAAAAQAAAAQAAECEAAAIAAAAAA=</HashCode>
+      <FileName>Person\IPerson.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CSharp_Assignment1.ICourse" Collapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Course\ICourse.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="CSharp_Assignment1.IPresentator">
-    <Position X="4.25" Y="1.5" Width="1.5" />
+  <Interface Name="CSharp_Assignment1.IPresentator" Collapsed="true">
+    <Position X="12.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgAIAAAQA4AAAA=</HashCode>
       <FileName>Presentator\IPresentator.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="CSharp_Assignment1.IPerson">
-    <Position X="8.75" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>QAAAAABAACAAAAAAAAAAAAQAAAAQAAECEAAAIAAAAAA=</HashCode>
-      <FileName>Person\IPerson.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

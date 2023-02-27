@@ -58,6 +58,27 @@
             studentManager.DeleteStudentInformation();
             break;
           case 9:
+            //Add new staff's information
+            studentManager.AddNewStaff();
+            break;
+          case 10:
+            //Display specific staff information
+            studentManager.DisplaySpecificStaffInformation();
+            break;
+          case 11:
+            //Display all staffs
+            studentManager.DisplayAllStaffs();
+            break;
+          case 12:
+            //Update staff's information
+            studentManager.UpdateStaffInformation();
+            break;
+
+          case 13:
+            //Delete staff's information
+            studentManager.DeleteStaffInformation();
+            break;
+          case 14:
             presentator.Exit();
             break;
           default:
@@ -65,7 +86,7 @@
             break;
         }
       }
-      while (choice != 9);
+      while (choice != 14);
     }
   }
 }
