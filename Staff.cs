@@ -102,7 +102,7 @@ namespace CSharp_Assignment1
       }
     }
 
-    public override void DeleteInformation(string studentID)
+    public override void DeleteInformation(string staffID)
     {
       Staff staff = Program.staffs.FirstOrDefault(s => s.StaffID == staffID);
       Presentator presentator = new Presentator();
