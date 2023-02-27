@@ -6,7 +6,7 @@ namespace CSharp_Assignment1
     public void DisplayMenu()
     {
       Console.WriteLine("=============================================");
-      Console.WriteLine("|                                    v14.1.0|");
+      Console.WriteLine("|                                    v18.1.0|");
       Console.WriteLine("=========GREENWICH MANAGEMENT SYSTEM=========");
       Console.WriteLine("1 | Add new course                          |");
       Console.WriteLine("2 | Add new student's information           |");

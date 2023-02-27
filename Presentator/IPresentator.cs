@@ -14,6 +14,8 @@ namespace CSharp_Assignment1
 
     void DisplayCourseNotExistMessage();
 
+    void DisplayStaffNotExistMessage();
+
     void Exit();
   }
 }
