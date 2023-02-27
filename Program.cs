@@ -4,14 +4,18 @@
   {
     public static List<Student> students { get; internal set; }
     public static List<Course> courses { get; internal set; }
+    public static List<Staff> staffs { get; internal set; }
     static void Main(string[] args)
     {
       //Create list of students and courses
       students = new List<Student>();
       courses = new List<Course>();
+      staffs = new List<Staff>();
+
       //Create object
       Course course = new Course();
       Student student = new Student();
+      Staff staff = new Staff();
       Presentator presentator = new Presentator();
 
       presentator.DisplayMenu();
@@ -121,6 +125,58 @@
             presentator.DisplayMenu();
             break;
           case 9:
+            //Add new staff
+            staff = new Staff();
+            staff.InputInformation();
+            staffs.Add(staff);
+            presentator.DisplaySuccessfulMessage();
+            presentator.DisplayMenu();
+            break;
+          case 10:
+            //Display specific staff information
+            Console.WriteLine("Enter staff's ID: ");
+            string staffID = Console.ReadLine();
+            bool foundStaff = false;
+            foreach (Staff s in staffs)
+            {
+              if (s.StaffID == staffID)
+              {
+                s.DisplayInformation();
+                foundStaff = true;
+                break;
+              }
+            }
+            if (!foundStaff)
+            {
+              presentator.DisplayStaffNotExistMessage();
+            }
+            presentator.DisplayMenu();
+            break;
+          case 11:
+            //Show all staffs
+            foreach (Staff s in staffs)
+            {
+              s.DisplayInformation();
+            }
+            presentator.DisplayMenu();
+            break;
+          case 12:
+            //Update staff by ID
+            staff = new Staff();
+            Console.WriteLine("Enter staff's ID: ");
+            string staffIDUpdate = Console.ReadLine();
+            staff.UpdateInformation(staffIDUpdate);
+            presentator.DisplayMenu();
+            break;
+          case 13:
+            //Delete staff by ID
+            staff = new Staff();
+            Console.WriteLine("Enter staff's ID: ");
+            string staffIDDelete = Console.ReadLine();
+            staff.DeleteInformation(staffIDDelete);
+            presentator.DisplayMenu();
+            break;
+          case 14:
             presentator.Exit();
             break;
           default:
@@ -128,7 +184,7 @@
             break;
         }
       }
-      while (choice != 9);
+      while (choice != 14);
     }
   }
 }

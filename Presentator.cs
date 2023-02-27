@@ -16,7 +16,12 @@ namespace CSharp_Assignment1
       Console.WriteLine("6 | Show all students in the system         |");
       Console.WriteLine("7 | Update specific student by their ID     |");
       Console.WriteLine("8 | Delete specific student by their ID     |");
-      Console.WriteLine("9 | Exit the program                        |");
+      Console.WriteLine("9 | Add new staff's information             |");
+      Console.WriteLine("10| Display specific staff information      |");
+      Console.WriteLine("11| Show all staffs in the system           |");
+      Console.WriteLine("12| Update specific staff by their ID       |");
+      Console.WriteLine("13| Delete specific staff by their ID       |");
+      Console.WriteLine("14| Exit the program                        |");
       Console.WriteLine("=============================================");
       Console.WriteLine("        Please choose your option:           ");
     }
@@ -46,6 +51,13 @@ namespace CSharp_Assignment1
     {
       Console.WriteLine("==============STUDENT INFORMATION============");
       Console.WriteLine("          The student is not existed      ");
+      Console.WriteLine("=============================================");
+    }
+
+    public void DisplayStaffNotExistMessage()
+    {
+      Console.WriteLine("===============STAFF INFORMATION=============");
+      Console.WriteLine("          The staff is not existed      ");
       Console.WriteLine("=============================================");
     }
 
